@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mali", cursive, sans-serif;
+  list-style: none;
+}
+
+.heading {
+  margin-top: 40px;
+  font-size: 45px;
+  margin-left: 10%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.display-section,
+.input-section {
+  width: 350px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input-section-head,
+#display-section-main-head {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  margin: 10px;
+  padding: 5px
+}
+
+#input-button {
+  width: 100px;
+  height: 40px
+}
+
+.display-section-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+
+#display-section-main-button {
+  width: 80px;
+  height: 30px;
+}
+
+#leaderboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start ;
+  padding: 10px;
+  min-height: 50px;
+  width: 300px;
+  border: 4px solid black;
+
+}
